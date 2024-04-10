@@ -1,0 +1,55 @@
+body {
+    font-family: "roboto";
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#post-header {
+    display:flex ;
+    margin-top: -2.5%;
+    padding-left: 10px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+}
+.username1{
+   margin-top: -19px; 
+   font-size: small;
+}
+.fa-ellipsis-vertical {
+    margin-left: auto;
+  }
+
+i {
+    font-size: 33px;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+}
+.post-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.post-items {
+    display: flex;
+    margin-left: 10px;
+}
+.fa-bookmark {
+    margin-left: auto;
+}
+.post-text{
+    margin: 10px;
+}
