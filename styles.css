@@ -1,12 +1,12 @@
 body {
-    font-family: "roboto";
+    font-family: "roboto" sans-serif;
     padding: 0;
     margin: 0;
     background-color: #fafafa;
   }
   .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
 }
 .post {
@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.username1{
+.username{
    margin-top: -19px; 
    font-size: small;
 }
@@ -52,4 +52,18 @@ i {
 }
 .post-text{
     margin: 10px;
+}
+
+.comments{
+    padding: 10px;
+}
+input {
+    border-radius: 10px;
+    width: 99%;
+    height: 25px;
+    border-width: 1px;
+    border: gray;
+}
+i{
+    cursor:pointer
 }
